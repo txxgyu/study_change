@@ -1,0 +1,18 @@
+git init 깃 초기화
+git add . 전체 파일 더하기
+git commit -m "commit message" 메세지와 함께 로컬저장소에 저장
+git push origin master 로컬 저장소에 있는 내용을 원격 저장소에 전송
+git remote add origin [git repogistory path] 원격 저장소를 연결
+git configr - global user.name "github name" 깃 사용자 이름 설정
+git configr - global user.email "github email" 깃 사용자 이메일 설정
+git clone [git repogistory path] 원격 저장소 복제
+git checkout [git branch name] 사용할 브랜치 지정
+git branch -m <old brach> <new brach> 브랜치의 명칭을 변경
+git branch -d 브랜치 삭제
+git branch -a 모든 브랜치 목록을 보여줌
+git branch -r 리모트 저장소의 브랜치 리스트를 보여줌
+git pull 원격 저장소에 있는 내용을 로컬 저장소로 다운
+git reset 커밋 조기화
+git stash 변경사항을 임시로 저장
+git merge 특정 브랜치를 다른 브랜치로 합치는 작업
+git rebase 특정 브랜치의 베이스를 다른 브랜치로 변경하는 작업
